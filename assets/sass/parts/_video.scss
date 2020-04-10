@@ -1,0 +1,30 @@
+
+.bg_video {
+    padding: 120px 0;
+
+    .container {
+    height: 100%;
+    width: 100%;
+ 
+        video {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translateX(-50%) translateY(-50%);
+            overflow: hidden;
+            height: 100%;
+        }
+
+        .overlay {
+            position: absolute;
+            left: 0;
+            top: 0;
+            background-color: rgba($color: #000000, $alpha: 0.2);
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+        
+        }
+        
+    }
+}
