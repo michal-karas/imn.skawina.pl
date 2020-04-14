@@ -12,9 +12,9 @@ body {
     &.menu-open {
         @media(max-width: 900px) {
             overflow: hidden;
-     
-                }
-              }
+
+        }
+    }
 }
 
 a {
@@ -31,4 +31,10 @@ ul {
     max-width: 1170px;
     padding: 0 15px 0 15px;
     margin: 0 auto;
+}
+
+main {
+    position: relative;
+    z-index: 10;
+    background-color: $primary-color;
 }
